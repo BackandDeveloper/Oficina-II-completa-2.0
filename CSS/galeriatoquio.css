@@ -1,0 +1,109 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+p1 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+p {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    color: #000000;
+}
+
+header, footer {
+    width: 100%;
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section img {
+    width: 100%;
+    height: auto;
+}
+
+img {
+    width: 70%;
+    height: auto;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 40px;
+    color: #ffffff;
+
+}
+
+h2 {
+    font-size: 40px;
+    color: #000000;
+
+}
+
+a {
+    color: blue; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #020202;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.botao:hover {
+    background-color: #000000;
+}
